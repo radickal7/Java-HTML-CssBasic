@@ -1,0 +1,55 @@
+p,ul {
+    color: #000000;
+  }
+
+  html {
+    font-size: 10px; /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: "Open Sans", sans-serif; /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+  }
+  
+  p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  html {
+    background-color: #184b7a;
+  }
+
+  /*padding (relleno), el espacio alrededor del contenido. En el ejemplo siguiente, es el espacio alrededor del texto del párrafo.
+    border (marco), la línea que se encuentra fuera del relleno.
+    margin (margen), el espacio fuera del elemento que lo separa de los demás.
+    width (ancho del elemento)
+    background-color, el color de fondo del contenido y del relleno
+    color, el color del contenido del elemento (generalmente texto)
+    text-shadow: coloca una sombra difuminada en el texto dentro del elemento
+    display: selecciona el modo de visualización para el elemento (no te preocupes de esto por ahora)*/
+
+    body {
+        width: 600px;
+        margin: 0 auto;
+        background-color: #f5a83d;
+        padding: 0 20px 20px 20px;
+        border: 5px solid black;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 20px 0;
+        color: #00539F;
+        text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.774);
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      body{
+        margin: 0 auto;
+      }
